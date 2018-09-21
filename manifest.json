@@ -1,0 +1,21 @@
+
+
+    {
+
+        "name": "Channel News Asia",
+        "version": "1.0",
+        "description": "Channel News Asia latest news",
+        "manifest_version": 2,
+
+        "icons": {
+            "48": "icons/cnalogo.png"
+        },
+        "permissions": [
+            "activeTab"
+        ],
+        "browser_action": {
+            "default_icon": "icons/cnalogo.png",
+            "default_title": "channel news asia",
+            "default_popup": "popup/cnahtml.html"
+        }
+    }
